@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    background-color: #F0F3EF;
+    font-family: "MyFont";
+    color: black;
+    animation: back 5s;
+}
+
+@keyframes back {
+    0%{background-color: rgb(39, 39, 39);}   
+    10%{background-color: rgb(39, 39, 39);} 
+    100%{background-color: #F0F3EF;}
+}
+
+img{
+    border-radius: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 220px;
+}
+
+#image{
+    animation: image 4s;
+}
+
+@keyframes image {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translate(0%);
+    }
+}
+
+p{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: black 20px 20px 1.5em;
+    border-style: dashed;
+    border-color: #35325E;
+    color: white;
+    animation: main 7s;
+}
+
+@keyframes main {
+    from{
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    40%{
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+h1{
+    font-family: Modern;
+}
