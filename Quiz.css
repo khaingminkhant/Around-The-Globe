@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    font-family: MyFont;
+    background-color: #F0F3EF;
+    color: #F0F3EF;
+}
+
+#Nav{
+    background-color: rgb(147, 147, 147);
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: #35325E;
+}
+
+#cocacola{
+    width: 500px;
+}
+
+#title{
+    text-align: center;
+    animation: title 4s;
+}
+
+@keyframes title {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+#table{
+    background-color: rgb(69, 69, 69);
+    border-radius: 50px;
+    width: 100%;
+    animation: main 2.5s;
+}
+
+@keyframes main {
+    0%{
+        transform: translateY(10%);
+        opacity: 0;
+        background-attachment: fixed;
+    }
+    
+    40%{
+        transform: translateY(-3%);
+    }
+    
+    60%{
+        transform: translateY(2%);
+    }
+    
+    100%{
+        transform: translateY(0%);
+        opacity: 1;}
+}
+
+.choice{
+    padding: 20px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: #768b9c;
+}
+
+.multiple-choice, .single-choice{
+    width: 1000px;
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+    color: black;
+    background-color: white;
+    transition: all 0.4s ease;
+}
+
+.submit:hover{
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: #35325E;
+}
+
+input:hover{
+    background-color: white;
+}
+
+.answer{
+    width: 300px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.question{
+    color: #768b9c;
+    font-size: large;
+}
+
+header{
+    color: black;
+    animation: header 2s;
+}
+
+@keyframes header {
+    from{
+        transform: translateY(-30%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+.quiz{
+    background-color: #F0F3EF;
+    width: 240px;
+    height: 30px;
+    border-radius: 30px;
+    transition: ease 0.5s;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.quiz:hover{
+    background-color: #50616f;
+    color: white;
+    border-radius: 15px;
+}
+
+nav{
+    animation: nav 2s;
+}
+
+@keyframes nav {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

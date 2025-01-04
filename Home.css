@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    font-family: MyFont;
+    background-color: #F0F3EF;
+    color: black;
+    animation: main 4s;
+}
+
+@keyframes main {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.text{
+    background-color: rgb(131, 131, 131);
+    padding: 25px;
+    border-radius: 80px;
+    box-shadow: black -20px 20px 1.5em;
+}
+
+#World{
+    background-color: rgb(118, 118, 118);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.co{
+    background-color: #50616f;
+    padding: 20px;
+    border-radius: 30px;
+    width: 46%;
+    color: black;
+}
+
+#c{
+    box-shadow: black 20px 25px 1.9em;
+}
+
+#o{
+    box-shadow: black -20px 25px 1.9em;
+}
+
+
+#summary{
+    background: rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 20px;
+    color: white;
+    box-shadow: black 20px 20px 1.5em;
+}
+
+footer{
+    padding: 10px;
+}
+
+#Nav{
+    background-color: rgb(147, 147, 147);
+    padding: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+.living_things{
+    background-color: black;
+    width: 770px;
+    height: 400px;
+    padding: 15px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#Challenge_Text{
+    background-color: white;
+    padding: 50px;
+    border-radius: 70px;
+    margin: 100px;
+    box-shadow: black 40px 30px 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.quote{
+    font-size: 100px;
+    color: white;
+}
+
+.end{
+    font-size: 40px;
+    color: white;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: #35325E;
+}
+
+
+.raining{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.climate{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(84, 84, 84);
+    color: #F0F3EF;
+}
+
+.font{
+    padding: 30px; 
+    background-color: #35325E; 
+    color: white; 
+    border-radius: 40px; 
+    box-shadow: rgb(39, 39, 39) -40px 20px 2em;
+    transition: ease 1s;
+}
+
+.font:hover{
+    background-color: black;
+}
+
+.link:hover{
+    color: #35325E
+}
+
+header{
+    color: black;
+    animation: header 2s;
+}
+
+@keyframes header {
+    from{
+        transform: translateY(-80%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+nav{
+    animation: nav 2s;
+}
+
+@keyframes nav {
+    from{
+        transform: translateY(-800%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+#map{
+    transition: 1s;
+}
+
+#map:hover{
+    width: 800px;
+    height: 480px;
+}
+
+.ads{
+    padding: 100px;
+    text-align: justify;
+}

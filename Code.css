@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    font-family: MyFont;
+    background-color: black;
+    color: green;
+    animation: all 10s;
+}
+
+#Nav{
+    background-color: green;
+    padding: 5px;
+    animation: nav 10s;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    animation: link 10s;
+}
+
+@keyframes link {
+    0%{color: white;}
+    40%{color: white;}
+    60%{color: white;}
+    100%{color: black;}
+}
+
+footer{
+    padding: 10px;
+}
+
+footer{
+    color: black;
+    background-color: green;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+}
+
+@keyframes all {
+    0%{
+        transform: translateX(100%);
+        background-color: #F0F3EF;
+        color: black;
+    }
+    40%{
+        transform: translateX(0%);
+        color: black;
+    }
+    60%{
+        background-color: #F0F3EF;
+        color: black;
+    }
+    100%{
+        background-color: black;
+    }
+
+}
+
+@keyframes nav {
+    0%{
+        background-color: rgb(147, 147, 147);
+    }
+    40%{
+        background-color: rgb(147, 147, 147);
+    }
+    60%{
+        background-color: rgb(147, 147, 147);
+    }
+    100%{
+        background-color: green;
+    }
+
+}
+
+article{
+    background-color: black;
+    animation: main 10s;
+}
+
+.Part{
+    font-size: 80px;
+}
+
+hr{
+    color: green;
+}
+
+@keyframes main {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        background-color: #F0F3EF;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.html{
+    color: lightgreen;
+}
+
+

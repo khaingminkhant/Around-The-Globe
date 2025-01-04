@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    font-family: MyFont;
+    background-color: #F0F3EF;
+    color: goldenrod;
+}
+
+footer{
+    padding: 10px;
+}
+
+#Nav{
+    background-color: rgb(147, 147, 147);
+    padding: 5px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+#one{
+    background-color: rgb(184, 184, 184);
+    animation: odd 5s;
+}
+
+#two{
+    background-color: rgb(89, 89, 89);
+    color: #F0F3EF;
+    animation: even 5s;
+}
+
+#three{
+    background-color: rgb(255, 255, 255);
+    animation: odd 5s;
+}
+
+#four{
+    background-color: black;
+    color: #F0F3EF;
+    animation: even 5s;
+}
+
+#five{
+    background-color: rgb(211, 227, 227);
+    animation: odd 5s;
+}
+
+#six{
+    background-color: gray;
+    color: #F0F3EF;
+    animation: even 5s;
+}
+
+#seven{
+    background-color: rgb(190, 190, 190);
+    animation: odd 5s;
+}
+
+#eight{
+    background-color: rgb(79, 79, 94);
+    color: #F0F3EF;
+    animation: even 5s;
+}
+
+#nine{
+    background-color: rgba(162, 162, 162, 0.282);
+    animation: odd 5s;
+}
+
+#ten{
+    background-color: rgb(60, 60, 60);
+    color: #F0F3EF;
+    animation: even 5s;
+}
+
+
+#table{
+    border: none;
+    border-spacing: 0;
+    color: black;
+}
+
+img.image{
+    padding: 10px;
+    transition: ease 1s;
+}
+
+p.paragraph{
+    padding: 19px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: #35325E;
+}
+
+header{
+    color: black;
+}
+
+header{
+    color: black;
+    animation: header 2s;
+}
+
+@keyframes header {
+    from{
+        transform: translateY(-30%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+nav{
+    animation: nav 2s;
+}
+
+@keyframes nav {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes odd {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes even {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.nav{
+    animation: bar 3s;
+}
+
+@keyframes bar {
+    from{
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(-30%);
+    }
+    87%{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+#title{
+    animation: title 2s;
+}
+
+@keyframes title {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+#Main{
+    scroll-snap-type: y mandatory;
+}
+
+.section{
+    scroll-snap-align: start;
+}
+
+.image:hover{
+    border-radius: 70px;
+}
