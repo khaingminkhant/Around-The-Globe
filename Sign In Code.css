@@ -1,0 +1,122 @@
+body{
+    font-family: MyFont;
+    background-color: #F0F3EF;
+    color: #819BB0;
+    animation: body 4s;
+}
+
+@keyframes body {
+    from{opacity: 0.3;}
+    to{opacity: 1;}
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+h1{
+    font-family: Modern;
+    animation: h1 2s;
+}
+
+@keyframes h1 {
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.sign_in{
+    background-color: black;
+    border-radius: 50px;
+    animation: main 5s;
+}
+
+@keyframes main {
+    0%{
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    70%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.input{
+    border-radius: 15px;
+    border: none;
+    background-color: #50616f;
+    animation: input 4s;
+}
+
+@keyframes input {
+    0%{
+        width: 50px;
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        width: 50px;
+        opacity: 1;
+    }
+    100%{
+        width: 700px;
+    }
+}
+
+.input:hover{
+    background-color: white;
+}
+
+#photo{
+    border-radius: 50px;
+    animation: photo 5s;
+}
+
+@keyframes photo {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    70%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+#button{
+    background-color: #F0F3EF;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    animation: input 4s;
+}
+
+#button:hover{
+    background-color: rgb(35, 35, 35);
+    color: #F0F3EF;
+}

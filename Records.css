@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    font-family: MyFont;
+    background-color: #F0F3EF;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: gray;
+    padding: 10px;
+}
+
+#Nav{
+    background-color: rgb(147, 147, 147);
+    padding: 5px;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: black 20px 25px 2em;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+#Main_Part{
+    background-image: url(Background\ Art2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    animation: main 5s;
+    background-size: 100%;
+}
+
+@keyframes main {
+    from{
+        opacity: 0;
+        border-radius: 100px;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: #35325E;
+}
+
+header{
+    color: black;
+}
+
+.paragraph{
+    padding: 40px;
+}
+
+h1{
+    padding-left: 40px;
+}
+
+header{
+    color: black;
+    animation: header 2s;
+}
+
+@keyframes header {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+nav{
+    animation: nav 2s;
+}
+
+@keyframes nav {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+#title{
+    animation: title 2s;
+}
+
+@keyframes title {
+    from{
+        transform: translateY(1600%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+
+

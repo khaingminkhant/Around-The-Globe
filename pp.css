@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("orkney-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Modern Font";
+    src: url("Modern\ Font.otf") format("opentype");
+}
+
+body{
+    background-color: #F0F3EF;
+    font-family: "MyFont";
+    animation: body 5s;
+}
+
+@keyframes body {
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: #F0F3EF;
+    }
+}
+
+.plan{
+    background-color: rgb(20, 20, 20);
+    width: 260px;
+    height: 308px;
+    border-radius: 30px;
+    box-shadow: rgb(119, 119, 119) 10px 5px 15px;
+    border-style: dashed;
+    border-color: rgb(80, 80, 80);
+    border-width: 1.4px;
+    font-family: MyFont;
+    animation: plan 2s;
+}
+
+@keyframes plan {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.plans{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "MyFont";
+}
+
+strong{
+    text-align: center;
+}
+
+li{
+    font-size: small;
+    padding-bottom: 6px;
+    color: whitesmoke;
+    list-style: circle;
+}
+
+#Banner{
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    animation: banner 2s;
+}
+
+@keyframes banner {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    60%{
+        transform: translateY(30%);
+    }
+    75%{
+        transform: translateY(-20%);
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+select {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #B64846;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    animation: select 3s;
+}
+
+@keyframes select {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.payment_part{
+    background-color: #50616f;
+    height: 550px;
+    width: 575px;
+    border-radius: 50px;
+    animation: main 3s;
+}
+
+@keyframes main {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+#payment_input{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Modern Font";
+    text-transform: uppercase;
+}
+
+.detail{
+    width: 555px;
+    height: 50px;
+    font-size: large;
+}
+
+.detail:hover{
+    background-color: #F0F3EF;
+}
+  
+.payment_detail{
+    font-size: large;
+    padding: 10px;
+}
+
+.pay_button{
+    width: 550px;
+    border-radius: 20px;
+    border: none;
+    height: 90px;
+    font-size: xx-large;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.pay_button:hover{
+    background-color: black;
+    color: #F0F3EF;
+}
+
+.bold{
+    font-size: 40px;
+}
+
+li{
+    list-style-image: url(earth.png);
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+
+header{
+    color: black;
+    animation: header 2s;
+}
+
+@keyframes header {
+    from{
+        transform: translateY(-30%);
+    }
+
+    to{
+        transform: translateY(0%);
+    }
+}
+
+nav{
+    animation: nav 2s;
+}
+
+@keyframes nav {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.some{
+    animation: some 5s;
+}
+
+@keyframes some {
+    from{
+        opacity: 0;
+        font-size: xx-large;
+    }
+    20%{
+        font-size: 70px;
+    }
+    70%{
+        font-size: xx-large;
+    }
+    to{
+        opacity: 1;
+        font-size: xx-large;
+    }
+}
